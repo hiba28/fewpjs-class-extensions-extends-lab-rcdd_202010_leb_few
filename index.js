@@ -12,7 +12,7 @@ class Polygon {
 }
 class Triangle extends Polygon{
   get isValid(){
-    return this.sides.forEach((e,i) => (e[i] + e[i+1] > e[i+2] && this.countSides === 3))
+    return this.countSides === 3
   }
 }
 class Square extends Polygon{
