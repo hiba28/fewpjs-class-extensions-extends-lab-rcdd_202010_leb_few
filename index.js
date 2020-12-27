@@ -17,9 +17,9 @@ class Triangle extends Polygon{
 }
 class Square extends Polygon{
   get isValid(){
-    return this.side[0] === this.side[1] && this.side[1] === this.side[2] && this.side[2] === this.side[3] && this.side[3] === this.side[4] && this.countSides === 4
+    return this.sides[0] === this.sides[1] && this.sides[1] === this.sides[2] && this.sides[2] === this.sides[3] && this.sides[3] === this.sides[4] && this.countSides === 4
   }
   get area(){
-    return this.sides[0] ** 2
+    return this.sidess[0] ** 2
   }
 }
