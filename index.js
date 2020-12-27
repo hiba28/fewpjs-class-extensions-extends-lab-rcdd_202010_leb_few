@@ -20,6 +20,6 @@ class Square extends Polygon{
     return this.sides[0] === this.sides[1] && this.sides[1] === this.sides[2] && this.sides[2] === this.sides[3] && this.sides[3] === this.sides[4] && this.countSides === 4
   }
   get area(){
-    return this.sidess[0] ** 2
+    return this.sides[0] ** 2
   }
 }
